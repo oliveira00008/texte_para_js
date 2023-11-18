@@ -1,12 +1,4 @@
-window.requestAnimFrame = function () {
-    return (
-        window.requestAnimationFrame || 
-        window.webkitRequestAnimationFrame ||
-        window.mozRRequestAnimationFrame ||
-        window.oRequestAnimationFrame ||
-        window.msRequestAnimationFrame ||
-        function (callback) {
-            window.setTimeout(callback);
-        }
-    );
-};
+document.querySelector('button[type="submit"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    alert('Formulário enviado com sucesso!');
+ });
