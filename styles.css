@@ -7,6 +7,10 @@ body {
     padding: 0;
   }
   
+main#link{
+background: url(img/pexels-rostislav-uzunov-5011647.jpg);
+}
+
   header {
     background-color: #333;
     color: #fff;
@@ -33,13 +37,21 @@ body {
   }
   
   h2 {
-    color: #333;
+    color: #f3f3f3;
   }
   
   .project {
     margin-bottom: 20px;
   }
   
+.foto{
+  
+}
+
+p{
+  color: #fff;
+}
+
   footer {
     background-color: #333;
     color: #fff;
